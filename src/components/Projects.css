@@ -1,4 +1,19 @@
-.project{
-    max-width: 345px;
-
+.projects{
+  grid-auto-rows: 1fr;
+}
+.class-media {
+  height: 170px;
+}
+.class-root {
+  min-height: 420px;
+  max-width: 345px;
+  margin: 30px;
+  position: relative;
+}
+.aws{
+  height: 150px;
+}
+.card-actions{
+  position: absolute;
+  bottom: 0;
 }
