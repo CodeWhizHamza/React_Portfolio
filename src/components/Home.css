@@ -1,0 +1,17 @@
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkgray;
+
+}
+.container{
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+.intro{
+    margin-top: 200px;
+}
+.img-responsive{
+    max-height: 700px;
+}
