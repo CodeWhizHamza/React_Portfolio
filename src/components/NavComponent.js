@@ -12,6 +12,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Home from "./Home";
+import './NavComponent.css'
 
 class NavComponent extends Component {
   render() {
