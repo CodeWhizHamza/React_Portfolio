@@ -9,11 +9,17 @@
   max-width: 345px;
   margin: 30px;
   position: relative;
+
 }
 .aws{
-  height: 150px;
+  height: 170px;
 }
 .card-actions{
   position: absolute;
   bottom: 0;
+
+}
+.card-content{
+ /*padding: 50px;*/
+  min-height: 200px;
 }
