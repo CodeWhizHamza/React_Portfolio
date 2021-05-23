@@ -1,17 +1,42 @@
-.big-text{
-    font-size: 52px;
-    margin: 20px 0;
-    color: darkgray;
+.intro {
+  color: white;
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 25px;
+}
+.photo {
+  padding-left: 200px;
+}
+.home {
+  margin-top: 150px;
+  center: auto;
+  background-color: #343a40;
+}
+.home-icon {
+  margin-left: -15px;
+    margin-top: 35px;
+}
+
+.home-btn {
+  margin-top: 35px;
+  margin-left: 30px;
+  display: flex;
+}
+.home-btn:hover {
+}
+.home-button {
+}
+.home-button:hover {
+  text-decoration: none;
+  transform: scale(1.03);
+}
+.about-button{
 
 }
-.container{
-    border: 1px solid black;
-    margin-top: 20px;
-
+.about-button:hover {
+    text-decoration: none;
+    transform: scale(1.03);
 }
-.intro{
-    margin-top: 200px;
-}
-.img-responsive{
-    max-height: 700px;
+.icon-button:hover{
+  color: black;
 }
