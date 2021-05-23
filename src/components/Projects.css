@@ -24,6 +24,12 @@
 
 }
 .card-content{
- /*padding: 50px;*/
   min-height: 200px;
+}
+.project-btn{
+  justify-content: center;
+  display: flex;
+}
+.project-btn:hover{
+  transform: scale(1.03);
 }
