@@ -7,7 +7,7 @@ export default class About extends Component {
     return (
       <Grid container>
         <Grid item md={1} sm={12} xs={12}></Grid>
-        <Grid item md={5} sm={12} xs={12}>
+        <Grid style={{marginTop:"25px"}} item md={5} sm={12} xs={12}>
           <div>
             <h1 className={"heading"}>About Me</h1>
             <div
@@ -78,7 +78,7 @@ export default class About extends Component {
             </div>
           </div>
         </Grid>
-        <Grid item md={5} sm={12} xs={12}>
+        <Grid style={{marginTop:"25px"}} item md={5} sm={12} xs={12}>
 
           <h1 className={"heading"}>Industrial Experience</h1>
             <div
