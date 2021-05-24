@@ -32,7 +32,6 @@ class NavComponent extends Component {
             </Nav>
             <div className={"download-btn"}>
               <Button
-
                 href={
                   "https://drive.google.com/uc?export=download&id=1gDB_xA66clXV-66R5iUOVVU024Dcd4CT"
                 }

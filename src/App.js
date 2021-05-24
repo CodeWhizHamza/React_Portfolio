@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import NavComponent from "./components/NavComponent";
+import NavComponent from "./components/Navbar/NavComponent";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 function App() {
   return (

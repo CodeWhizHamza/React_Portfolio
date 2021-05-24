@@ -9,10 +9,10 @@ import {
   Grid,
   Typography,
 } from "@material-ui/core";
-import ppmtool from "../assets/ppmtool.png";
-import aws from "../assets/img.png";
-import ipl from "../assets/ipl.png";
-import typing from "../assets/typing.png";
+import ppmtool from "../../assets/ppmtool.png";
+import aws from "../../assets/img.png";
+import ipl from "../../assets/ipl.png";
+import typing from "../../assets/typing.png";
 import "./Projects.css";
 
 import { GitHub } from "@material-ui/icons";

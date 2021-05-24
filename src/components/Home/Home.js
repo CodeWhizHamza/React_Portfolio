@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
 import { Box, Button, Grid, IconButton, Tooltip } from "@material-ui/core";
-import avatar from "../assets/arjun.png";
+import avatar from "../../assets/arjun.png";
 import { Link } from "react-router-dom";
 
 import {
@@ -22,7 +22,7 @@ export default class Home extends Component {
             display={{ xs: "none", md: "block", sm: "block" }}
           />
           <Box
-            style={{ marginTop: "90px" }}
+            style={{ marginTop: "70px" }}
             display={{ xs: "block", md: "block", sm: "block" }}
           />
         </Grid>
@@ -112,7 +112,7 @@ export default class Home extends Component {
           </div>
           <div className={"home-btn"}>
             <div className={"about-button"}>
-              <Link to={"/about"} style={{ textDecoration: "none" }}>
+              <Link to={"/About"} style={{ textDecoration: "none" }}>
                 <Button
                   style={{
                     backgroundColor: "#1E2228",
@@ -127,7 +127,7 @@ export default class Home extends Component {
             </div>
 
             <div className={"home-button"}>
-              <Link to={"/contact"} style={{ textDecoration: "none" }}>
+              <Link to={"/Contact"} style={{ textDecoration: "none" }}>
                 <Button
                   style={{
                     backgroundColor: "#1E2228",

@@ -1,26 +1,13 @@
 import React from "react";
-import {
-  AppBar,
-  Container,
-  Grid,
-  IconButton,
-  Toolbar,
-  Tooltip,
-  Typography,
-} from "@material-ui/core";
+import {AppBar, Container, IconButton, Tooltip, Typography,} from "@material-ui/core";
 import "./Footer.css";
-import {
-  GitHub,
-  Instagram,
-  LinkedIn,
-  Twitter,
-  YouTube,
-} from "@material-ui/icons";
+import {GitHub, Instagram, LinkedIn, Twitter, YouTube,} from "@material-ui/icons";
+
 export default function Footer() {
-  const styles = {
-    button: { margin: 15 },
-    appBarBackground: { background: "#343A40" },
-  };
+  // const styles = {
+  //   button: { margin: 15 },
+  //   appBarBackground: { background: "#343A40" },
+  // };
   return (
     <div className={"appbar-footer"}>
       <AppBar style={{ backgroundColor: "#1E2228"}} position={"static"}>
