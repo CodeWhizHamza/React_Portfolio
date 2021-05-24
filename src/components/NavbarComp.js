@@ -12,7 +12,7 @@ export default class NavbarComp extends Component {
       <Router>
         <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            {/*style={{background:"#D6D8D9"}}*/}
+            style={{background:"#D6D8D9"}}
             <a className="navbar-brand">Arjun Gautam</a>
             <button
               className="navbar-toggler"

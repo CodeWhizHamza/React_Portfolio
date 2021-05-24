@@ -147,7 +147,7 @@ class Projects extends Component {
                       <Typography variant="body3" color="white" component="p">
                         <div style={{ textAlign: "justify", color: "#757575" }}>
                           IPL Dashboard shows match details of each ipl teams
-                          with win/loss stats. Also shows all matches from
+                          with win/loss stats. Also shows all matches with their corresponding details from
                           2008-2020.
                         </div>
                       </Typography>
