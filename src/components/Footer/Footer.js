@@ -8,13 +8,14 @@ export default function Footer() {
     //   button: { margin: 15 },
     //   appBarBackground: { background: "#343A40" },
     // };
+    const d = new Date();
     return (
         <div className={"appbar-footer"}>
             <AppBar style={{backgroundColor: "#1E2228"}} position={"static"}>
                 <Container style={{textAlign: "center"}} maxWidth="md">
                     {/*<Toolbar >*/}
                     <Typography style={{marginTop: "8px"}} color="inherit">
-                        © 2021 ARJUN GAUTAM, ALL RIGHTS RESERVED
+                        © {d.getFullYear()} ARJUN GAUTAM, ALL RIGHTS RESERVED
                         <div className={"footer-icon"}>
                             <Tooltip title="In/arjungautam1" placement="top">
                                 <IconButton

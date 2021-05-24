@@ -12,17 +12,17 @@ export default class Home extends Component {
             <Grid container>
                 <Grid item md={12} sm={12} xs={12}>
                     <Box
-                        style={{marginTop: "150px"}}
+                        style={{marginTop: "145px"}}
                         display={{xs: "none", md: "block", sm: "block"}}
                     />
                     <Box
-                        style={{marginTop: "70px"}}
+                        style={{marginTop: "6px"}}
                         display={{xs: "block", md: "block", sm: "block"}}
                     />
                 </Grid>
                 <Grid item md={2} sm={6}/>
                 <Grid
-                    style={{backgroundColor: "#343A40"}}
+                    // style={{backgroundColor: "#343A40"}}
                     item
                     md={4}
                     sm={12}
@@ -109,7 +109,7 @@ export default class Home extends Component {
                             <Link to={"/About"} style={{textDecoration: "none"}}>
                                 <Button
                                     style={{
-                                        backgroundColor: "#1E2228",
+                                        backgroundColor: "#343A40",
                                         color: "white",
                                         margin: "20px 20px 20px -5px",
                                     }}
@@ -124,7 +124,7 @@ export default class Home extends Component {
                             <Link to={"/Contact"} style={{textDecoration: "none"}}>
                                 <Button
                                     style={{
-                                        backgroundColor: "#1E2228",
+                                        backgroundColor: "#343A40",
                                         color: "white",
                                         margin: "20px 20px 20px 10px",
                                     }}
@@ -137,7 +137,8 @@ export default class Home extends Component {
                     </div>
                 </Grid>
                 <Grid
-                    style={{backgroundColor: "#343A40"}}
+                    // style={{backgroundColor: "#343A40"}}
+
                     item
                     md={4}
                     sm={12}
@@ -149,7 +150,7 @@ export default class Home extends Component {
                         </Box>
                     </div>
                 </Grid>
-                <Grid item md={2} sm={6}></Grid>
+                {/*<Grid item md={2} sm={6}></Grid>*/}
             </Grid>
         );
     }

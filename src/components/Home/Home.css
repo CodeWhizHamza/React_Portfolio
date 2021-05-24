@@ -7,6 +7,9 @@
 
 .photo {
     padding-left: 200px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 20px;
 }
 
 .home {
