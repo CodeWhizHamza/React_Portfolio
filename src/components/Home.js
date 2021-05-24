@@ -17,9 +17,16 @@ export default class Home extends Component {
     return (
       <Grid container>
         <Grid item md={12} sm={12} xs={12}>
-          <div style={{ marginTop: "150px" }}></div>
+          <Box
+            style={{ marginTop: "150px" }}
+            display={{ xs: "none", md: "block", sm: "block" }}
+          />
+          <Box
+            style={{ marginTop: "90px" }}
+            display={{ xs: "block", md: "block", sm: "block" }}
+          />
         </Grid>
-        <Grid item md={2} sm={6}></Grid>
+        <Grid item md={2} sm={6}/>
         <Grid
           style={{ backgroundColor: "#343A40" }}
           item
@@ -34,7 +41,7 @@ export default class Home extends Component {
             </div>
 
             <div className={"home-icon"}>
-              <Tooltip title="LinkedIn" placement="top">
+              <Tooltip title="In/arjungautam1" placement="top">
                 <IconButton
                   className={"icon-button"}
                   color={"inherit"}
@@ -74,7 +81,7 @@ export default class Home extends Component {
                 </IconButton>
               </Tooltip>
 
-              <Tooltip title="Instagram" placement="top">
+              <Tooltip title="arjungauatm5431" placement="top">
                 <IconButton
                   className={"icon-button"}
                   color={"inherit"}

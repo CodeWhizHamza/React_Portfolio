@@ -53,7 +53,7 @@ class Projects extends Component {
                   </CardActionArea>
                   <CardActions className={"card-actions"}>
                     <a
-                      href={"https://www.github.com/arjungautam1/"}
+                      href={"https://github.com/arjungautam1/Personal-Project-Management-Tool/"}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -120,7 +120,7 @@ class Projects extends Component {
                       {" "}
                       <Button size="small" color="primary">
                         {" "}
-                        Website{" "}
+                        Source Code{" "}
                       </Button>
                     </a>
                   </CardActions>
@@ -172,7 +172,7 @@ class Projects extends Component {
                       {" "}
                       <Button size="small" color="primary">
                         {" "}
-                        Website{" "}
+                        Source Code{" "}
                       </Button>
                     </a>
                   </CardActions>
