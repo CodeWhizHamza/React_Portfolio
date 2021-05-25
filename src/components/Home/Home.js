@@ -12,7 +12,7 @@ export default class Home extends Component {
             <Grid container>
                 <Grid item md={12} sm={12} xs={12}>
                     <Box
-                        style={{marginTop: "145px"}}
+                        style={{marginTop: "100px"}}
                         display={{xs: "none", md: "block", sm: "block"}}
                     />
                     <Box

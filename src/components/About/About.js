@@ -5,7 +5,7 @@ import "./About.css";
 export default class About extends Component {
   render() {
     return (
-      <Grid container>
+      <Grid container >
         <Grid item md={1} sm={12} xs={12}></Grid>
         <Grid style={{marginTop:"25px"}} item md={5} sm={12} xs={12}>
           <div>
