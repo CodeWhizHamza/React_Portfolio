@@ -70,6 +70,59 @@ class Projects extends Component {
                                 </div>
                             </Card>
                         </Grid>
+
+                        {/*IPL Dashboard*/}
+
+                        <Grid item md={3} sm={6} xs={12}>
+                            <Card className={"class-root"}>
+                                <div style={{backgroundColor: "#22272E", color: "white"}}>
+                                    <CardActionArea>
+                                        <CardMedia
+                                            className={"class-media"}
+                                            image={ipl}
+                                            title="IPL Dashboard"
+                                        />
+                                        {/*<CardContent style={{margin:"16px"}}>*/}
+                                        <CardContent className={"card-content"}>
+                                            <Typography gutterBottom variant="h5" component="h3">
+                                                IPL Dashboard
+                                            </Typography>
+                                            <Typography variant="body3" color="white" component="p">
+                                                <div style={{textAlign: "justify", color: "#757575"}}>
+                                                    IPL Dashboard shows match details of each ipl teams
+                                                    with win/loss stats. Also shows all matches with their
+                                                    corresponding details from 2008-2020.
+                                                </div>
+                                            </Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                    <CardActions className={"card-actions"}>
+                                        <a
+                                            href={"https://github.com/arjungautam1/ipl-dashboard"}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Button>
+                                                <GitHub/>
+                                            </Button>
+                                        </a>
+
+                                        <a
+                                            href={"http://arjunipldashboard-env.eba-5p5fjhty.us-east-1.elasticbeanstalk.com/"}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            {" "}
+                                            <Button size="small" color="primary">
+                                                {" "}
+                                                Website{" "}
+                                            </Button>
+                                        </a>
+                                    </CardActions>
+                                </div>
+                            </Card>
+                        </Grid>
+
                         {/*AWS Image Upload*/}
                         <Grid item md={3} sm={6} xs={12}>
                             <Card className={"class-root"}>
@@ -121,57 +174,6 @@ class Projects extends Component {
                             </Card>
                         </Grid>
 
-                        {/*IPL Dashboard*/}
-
-                        <Grid item md={3} sm={6} xs={12}>
-                            <Card className={"class-root"}>
-                                <div style={{backgroundColor: "#22272E", color: "white"}}>
-                                    <CardActionArea>
-                                        <CardMedia
-                                            className={"class-media"}
-                                            image={ipl}
-                                            title="IPL Dashboard"
-                                        />
-                                        {/*<CardContent style={{margin:"16px"}}>*/}
-                                        <CardContent className={"card-content"}>
-                                            <Typography gutterBottom variant="h5" component="h3">
-                                                IPL Dashboard
-                                            </Typography>
-                                            <Typography variant="body3" color="white" component="p">
-                                                <div style={{textAlign: "justify", color: "#757575"}}>
-                                                    IPL Dashboard shows match details of each ipl teams
-                                                    with win/loss stats. Also shows all matches with their
-                                                    corresponding details from 2008-2020.
-                                                </div>
-                                            </Typography>
-                                        </CardContent>
-                                    </CardActionArea>
-                                    <CardActions className={"card-actions"}>
-                                        <a
-                                            href={"https://github.com/arjungautam1/ipl-dashboard"}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            <Button>
-                                                <GitHub/>
-                                            </Button>
-                                        </a>
-
-                                        <a
-                                            href={"https://github.com/arjungautam1/ipl-dashboard"}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {" "}
-                                            <Button size="small" color="primary">
-                                                {" "}
-                                                Source Code{" "}
-                                            </Button>
-                                        </a>
-                                    </CardActions>
-                                </div>
-                            </Card>
-                        </Grid>
 
                         {/*Typing Test*/}
                         <Grid item md={3} sm={6} xs={12}>
