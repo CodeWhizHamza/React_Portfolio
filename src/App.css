@@ -6,6 +6,7 @@
 
  */
 
-/*.body{*/
-/*    font-size: 0.975rem;*/
-/*}*/
+.body{
+    font-size:0.875rem;
+    zoom: 98%;
+}
