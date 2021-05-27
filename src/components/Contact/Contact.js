@@ -1,20 +1,20 @@
 import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import {useForm, ValidationError} from "@formspree/react";
 import {
-  Avatar,
-  Button,
-  Checkbox,
-  Container,
-  CssBaseline,
-  FormControlLabel,
-  Grid,
-  TextareaAutosize,
-  TextField,
-  Typography,
+    Avatar,
+    Button,
+    Checkbox,
+    Container,
+    CssBaseline,
+    FormControlLabel,
+    Grid,
+    TextareaAutosize,
+    TextField,
+    Typography,
 } from "@material-ui/core";
-import { MessageOutlined, Phone } from "@material-ui/icons";
+import {MessageOutlined} from "@material-ui/icons";
 
-import { makeStyles } from "@material-ui/core/styles";
+import {makeStyles} from "@material-ui/core/styles";
 
 export default function Contact() {
   const useStyles = makeStyles((theme) => ({
@@ -33,8 +33,8 @@ export default function Contact() {
       backgroundColor: "#1E2228",
     },
     form: {
-      width: "100%", // Fix IE 11 issue.
-      marginTop: theme.spacing(3),
+      // width: "100%", // Fix IE 11 issue.
+      // marginTop: theme.spacing(3),
     },
     submit: {
       margin: theme.spacing(3, 0, 2),
@@ -47,7 +47,7 @@ export default function Contact() {
     return (
 
       <Container component="main" maxWidth="xs">
-          <p style={{ color: "white", textAlign: "center" ,fontSize:"20px"}}>
+          <p style={{ color: "white", textAlign: "center" ,fontSize:"19px",padding:"20px"}}>
               Thanks for messaging me. <br/>
               I will reach out to you soon.
 

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Grid, Paper } from "@material-ui/core";
+import React, {Component} from "react";
+import {Grid} from "@material-ui/core";
 import "./About.css";
 
 export default class About extends Component {

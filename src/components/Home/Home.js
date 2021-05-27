@@ -22,7 +22,6 @@ export default class Home extends Component {
                 </Grid>
                 <Grid item md={2} sm={6}/>
                 <Grid
-                    // style={{backgroundColor: "#343A40"}}
                     item
                     md={4}
                     sm={12}
@@ -146,7 +145,7 @@ export default class Home extends Component {
                 >
                     <div className={"photo"}>
                         <Box display={{xs: "none", md: "block", sm: "block"}}>
-                            <img src={avatar}/>
+                            <img src={avatar} alt={"avatar"}/>
                         </Box>
                     </div>
                 </Grid>
