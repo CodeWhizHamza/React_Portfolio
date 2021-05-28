@@ -49,16 +49,24 @@ class Projects extends Component {
                                             }
                                             target="_blank"
                                             rel="noreferrer"
+                                            style={{textDecoration: "none"}}
                                         >
-                                            <Button>
-                                                <GitHub/>
+                                            <Button
+                                                variant={"outlined"}
+                                                startIcon={<GitHub/>}
+                                                style={{marginLeft: "10px"}}
+
+                                            >Github
+
                                             </Button>
                                         </a>
+
 
                                         <a
                                             href={"https://personal-project-manage.herokuapp.com/"}
                                             target="_blank"
                                             rel="noreferrer"
+                                            style={{marginLeft: "90px"}}
                                         >
                                             {" "}
                                             <Button size="small" color="primary">
@@ -96,29 +104,40 @@ class Projects extends Component {
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
-                                    <CardActions className={"card-actions"}>
-                                        <a
-                                            href={"https://github.com/arjungautam1/ipl-dashboard"}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            <Button>
-                                                <GitHub/>
-                                            </Button>
-                                        </a>
+                                    <div style={{width: "800px", margin: "0px auto"}}>
+                                        <CardActions className={"card-actions"}>
+                                            <a
+                                                href={"https://github.com/arjungautam1/ipl-dashboard"}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{textDecoration: "none"}}
+                                            >
+                                                <Button
+                                                    variant={"outlined"}
+                                                    startIcon={<GitHub/>}
+                                                    style={{marginLeft: "10px"}}
 
-                                        <a
-                                            href={"http://arjunipldashboard-env.eba-5p5fjhty.us-east-1.elasticbeanstalk.com/"}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {" "}
-                                            <Button size="small" color="primary">
+                                                >Github
+
+                                                </Button>
+                                            </a>
+
+                                            <a
+                                                href={"http://arjunipldashboard-env.eba-5p5fjhty.us-east-1.elasticbeanstalk.com/"}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={{marginLeft: "90px"}}
+                                            >
                                                 {" "}
-                                                Website{" "}
-                                            </Button>
-                                        </a>
-                                    </CardActions>
+                                                <Button size="small" color="primary">
+                                                    {" "}
+                                                    Website{" "}
+                                                </Button>
+                                            </a>
+
+
+                                        </CardActions>
+                                    </div>
                                 </div>
                             </Card>
                         </Grid>
@@ -152,9 +171,15 @@ class Projects extends Component {
                                             href={"https://github.com/arjungautam1/AWS_Image_Upload"}
                                             target="_blank"
                                             rel="noreferrer"
+                                            style={{textDecoration: "none"}}
                                         >
-                                            <Button>
-                                                <GitHub/>
+                                            <Button
+                                                variant={"outlined"}
+                                                startIcon={<GitHub/>}
+                                                style={{marginLeft: "10px"}}
+
+                                            >Github
+
                                             </Button>
                                         </a>
 
@@ -162,6 +187,7 @@ class Projects extends Component {
                                             href={"https://github.com/arjungautam1/AWS_Image_Upload"}
                                             target="_blank"
                                             rel="noreferrer"
+                                            style={{marginLeft: "50px"}}
                                         >
                                             {" "}
                                             <Button size="small" color="primary">
@@ -185,7 +211,6 @@ class Projects extends Component {
                                             image={typing}
                                             title="Typing Test"
                                         />
-                                        {/*<CardContent style={{margin:"5px"}}>*/}
                                         <CardContent className={"card-content"}>
                                             <Typography gutterBottom variant="h5" component="h3">
                                                 Typing Test
@@ -205,9 +230,15 @@ class Projects extends Component {
                                             href={"https://github.com/arjungautam1/TypingTest"}
                                             target="_blank"
                                             rel="noreferrer"
+                                            style={{textDecoration: "none"}}
                                         >
-                                            <Button>
-                                                <GitHub/>
+                                            <Button
+                                                variant={"outlined"}
+                                                startIcon={<GitHub/>}
+                                                style={{marginLeft: "10px"}}
+
+                                            >Github
+
                                             </Button>
                                         </a>
 
@@ -215,6 +246,7 @@ class Projects extends Component {
                                             href={"https://lasertyping.netlify.app/"}
                                             target="_blank"
                                             rel="noreferrer"
+                                            style={{marginLeft: "90px"}}
                                         >
                                             {" "}
                                             <Button size="small" color="primary">
@@ -229,14 +261,24 @@ class Projects extends Component {
                     </Grid>
                 </div>
                 <div className={"project-btn"}>
+                    {/*<Button*/}
+                    {/*    className={"pro-btn"}*/}
+                    {/*    href={"https://github.com/arjungautam1"}*/}
+                    {/*    target={"_blank"}*/}
+                    {/*    style={{backgroundColor: "#373E47", color: "white"}}*/}
+                    {/*    variant="outlined"*/}
+                    {/*>*/}
+                    {/*    More Projects on Github*/}
+                    {/*</Button>*/}
                     <Button
                         className={"pro-btn"}
+                        variant={"outlined"}
                         href={"https://github.com/arjungautam1"}
+                        startIcon={<GitHub/>}
+                        style={{marginLeft: "10px",backgroundColor: "#373E47", color: "white"}}
                         target={"_blank"}
-                        style={{backgroundColor: "#373E47", color: "white"}}
-                        variant="outlined"
-                    >
-                        More Projects on Github
+
+                    >More Projects
                     </Button>
                 </div>
             </div>
