@@ -16,7 +16,7 @@
 .class-root:hover {
     transform: scale(1.03);
     /*width: 20px;*/
-    transition: transform 2s; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    /*transition: transform 2s; !* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) *!*/
 }
 
 .aws {
@@ -38,6 +38,6 @@
     display: flex;
 }
 
-.project-btn:hover {
+.pro-btn:hover {
     transform: scale(1.03);
 }

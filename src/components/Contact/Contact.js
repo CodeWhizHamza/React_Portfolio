@@ -11,7 +11,7 @@ import {
     TextField,
     Typography,
 } from "@material-ui/core";
-import {MessageOutlined} from "@material-ui/icons";
+import {EmailOutlined, MailOutlineRounded} from "@material-ui/icons";
 
 import {makeStyles} from "@material-ui/core/styles";
 
@@ -28,8 +28,8 @@ export default function Contact() {
         },
         avatar: {
             margin: theme.spacing(1),
-            // backgroundColor: theme.palette.secondary.main,
             backgroundColor: "#1E2228",
+
         },
         form: {
             width: "100%", // Fix IE 11 issue.
@@ -52,7 +52,7 @@ export default function Contact() {
                 </p>
                 <div className={classes.paper}>
                     <Avatar className={classes.avatar}>
-                        <MessageOutlined/>
+                        <MailOutlineRounded/>
                     </Avatar>
                     <Typography component="h1" variant="h5">
                         Get in Touch
@@ -120,7 +120,7 @@ export default function Contact() {
         <Container component="main" maxWidth="xs">
             <div className={classes.paper}>
                 <Avatar className={classes.avatar}>
-                    <MessageOutlined/>
+                <EmailOutlined/>
                 </Avatar>
                 <Typography component="h1" variant="h5">
                     Get in Touch
