@@ -2,12 +2,13 @@ import React from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import NavComponent from "./components/Navbar/NavComponent";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import Youtube from "./components/Youtube/Youtube";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact />
+              <Footer />
+            </Route>
+            <Route path="/youtube">
+             <Youtube/>
               <Footer />
             </Route>
             <Route path="/">
