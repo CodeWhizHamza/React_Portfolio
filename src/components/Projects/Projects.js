@@ -261,21 +261,12 @@ class Projects extends Component {
                     </Grid>
                 </div>
                 <div className={"project-btn"}>
-                    {/*<Button*/}
-                    {/*    className={"pro-btn"}*/}
-                    {/*    href={"https://github.com/arjungautam1"}*/}
-                    {/*    target={"_blank"}*/}
-                    {/*    style={{backgroundColor: "#373E47", color: "white"}}*/}
-                    {/*    variant="outlined"*/}
-                    {/*>*/}
-                    {/*    More Projects on Github*/}
-                    {/*</Button>*/}
                     <Button
                         className={"pro-btn"}
                         variant={"outlined"}
                         href={"https://github.com/arjungautam1"}
                         startIcon={<GitHub/>}
-                        style={{marginLeft: "10px",backgroundColor: "#373E47", color: "white"}}
+                        style={{marginLeft: "10px", backgroundColor: "#373E47", color: "white"}}
                         target={"_blank"}
 
                     >More Projects

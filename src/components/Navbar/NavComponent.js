@@ -26,9 +26,15 @@ class NavComponent extends Component {
                                 About
                             </Nav.Link>
 
+                            <Nav.Link as={Link} to="/youtube">
+                                Youtube
+                            </Nav.Link>
+
                             <Nav.Link as={Link} to="/contact">
                                 Contact
                             </Nav.Link>
+
+
                         </Nav>
                         <div className={"download-btn"}>
                             <Button
