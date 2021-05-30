@@ -30,9 +30,15 @@ class NavComponent extends Component {
                                 Youtube
                             </Nav.Link>
 
+                            <Nav.Link as={Link} to="/certification">
+                                Certificate
+                            </Nav.Link>
+
                             <Nav.Link as={Link} to="/contact">
                                 Contact
                             </Nav.Link>
+
+
 
 
                         </Nav>
