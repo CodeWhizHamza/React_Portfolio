@@ -32,7 +32,7 @@ export default function Certification() {
                             />
                             <CardContent style={{backgroundColor:"#343A40",color:"white"}}>
                                 <Typography  gutterBottom variant="h6" component="h2">
-                                    Full Stack: Spring Boot, ReactJS, Redux.
+                                    Full Stack: Spring Boot, ReactJS.
 
                                 </Typography>
                                 <Typography variant="body2" color="inherit" component="p">
@@ -101,7 +101,7 @@ export default function Certification() {
                             />
                             <CardContent style={{backgroundColor:"#343A40",color:"white"}}>
                                 <Typography gutterBottom variant="h6" component="h6">
-                                   HackerRank Certification for Java.
+                                   HackerRank Certificate Java.
                                 </Typography>
                                 <Typography variant="body2" color="inherit" component="p">
                                     HackerRank
