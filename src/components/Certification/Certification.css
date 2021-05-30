@@ -1,0 +1,7 @@
+.card-root{
+    max-width: 343px;
+}
+
+.card-root:hover {
+    transform: scale(1.03);
+}

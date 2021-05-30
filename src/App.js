@@ -9,6 +9,7 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Youtube from "./components/Youtube/Youtube";
+import Certification from "./components/Certification/Certification";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
             </Route>
             <Route path="/youtube">
              <Youtube/>
+              <Footer />
+            </Route>
+            <Route path="/certification">
+             <Certification/>
               <Footer />
             </Route>
             <Route path="/">
