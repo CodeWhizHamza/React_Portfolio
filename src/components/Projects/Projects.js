@@ -58,8 +58,8 @@ class Projects extends Component {
         <div className="projects">
           <h1 className="project-title">PROJECTS</h1>
           <div className="grid">
-            {cards.map(card => (
-              <div className="item">
+            {cards.map((card, i) => (
+              <div key={i} className="item">
                 <div className="item__header">
                   <img
                     src={card.image}
@@ -82,7 +82,6 @@ class Projects extends Component {
                   </Button>
                   <Button
                     className="item__btn"
-                    style={{ fontSize: '14px !important' }}
                     onClick={() => window.open(card.live, '_blank')}
                     variant="outlined"
                     startIcon={<Public />}
