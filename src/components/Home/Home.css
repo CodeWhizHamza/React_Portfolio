@@ -9,7 +9,7 @@
 }
 
 .photo {
-  padding-left: 200px;
+  padding-left: 10vw;
   border: 1px solid white;
   border-radius: 25px;
   margin-left: 20px;
@@ -17,8 +17,22 @@
 
 .home {
   margin-top: 150px;
-  center: auto;
   background-color: #343a40;
+}
+
+.home-title {
+  font-size: 60px;
+}
+.home-slogan {
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .home-title {
+    font-size: 48px;
+  }
+  .home-slogan {
+    font-size: 20px;
+  }
 }
 
 .home-icon {
@@ -41,5 +55,5 @@
 }
 
 .icon-button:hover {
-  color: black;
+  color: hsl(210, 10%, 50%);
 }

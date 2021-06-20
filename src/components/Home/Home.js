@@ -30,8 +30,8 @@ export default class Home extends Component {
         <Grid item md={4} sm={12} xs={12}>
           <div className="intro">
             <div style={{ marginTop: '30px' }}>
-              <h1 style={{ fontSize: '70px' }}>I'm Arjun Gautam</h1>
-              <h5>Full Stack Java Developer</h5>
+              <h1 className="home-title">I'm Arjun Gautam</h1>
+              <p className="home-slogan">Full Stack Java Developer</p>
             </div>
 
             <div className={'home-icon'}>
@@ -74,7 +74,6 @@ export default class Home extends Component {
                   <YouTube fontSize="large" />
                 </IconButton>
               </Tooltip>
-
               <Tooltip title="arjungauatm5431" placement="top">
                 <IconButton
                   className={'icon-button'}
@@ -89,7 +88,6 @@ export default class Home extends Component {
                   <Instagram fontSize="large" />
                 </IconButton>
               </Tooltip>
-
               <Tooltip title="Twitter/ArjunCodes" placement="top">
                 <IconButton
                   className={'icon-button'}
@@ -136,16 +134,9 @@ export default class Home extends Component {
             </div>
           </div>
         </Grid>
-        <Grid
-          // style={{backgroundColor: "#343A40"}}
-
-          item
-          md={4}
-          sm={12}
-          xs="none"
-        >
+        <Grid item md={4} sm={12} xs="none">
           <div className={'photo'}>
-            <Box display={{ xs: 'none', md: 'block', sm: 'block' }}>
+            <Box display={{ xs: 'block', md: 'block', sm: 'block' }}>
               <img src={avatar} alt={'avatar'} />
             </Box>
           </div>
