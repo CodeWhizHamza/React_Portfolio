@@ -15,7 +15,7 @@ function App() {
   const renderWithFooter = component => {
     return (
       <>
-        <component />
+        {component}
         <Footer />
       </>
     )
@@ -28,30 +28,14 @@ function App() {
         <div className="App">
           <NavComponent />
           <Switch>
-            <Route path="/about">
-              <About />
-              <Footer />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-              <Footer />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-              <Footer />
-            </Route>
-            <Route path="/youtube">
-              <Youtube />
-              <Footer />
-            </Route>
+            <Route path="/about">{renderWithFooter(<About />)}</Route>
+            <Route path="/projects">{renderWithFooter(<Projects />)}</Route>
+            <Route path="/contact">{renderWithFooter(<Contact />)}</Route>
+            <Route path="/youtube">{renderWithFooter(<Youtube />)}</Route>
             <Route path="/certification">
-              <Certification />
-              <Footer />
+              {renderWithFooter(<Certification />)}
             </Route>
-            <Route path="/">
-              <Home />
-              <Footer />
-            </Route>
+            <Route path="/">{renderWithFooter(<Home />)}</Route>
           </Switch>
         </div>
       </Router>
